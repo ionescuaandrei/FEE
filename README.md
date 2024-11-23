@@ -156,3 +156,142 @@ This README contains a comprehensive set of questions and answers for various to
    Replace with an open circuit.
 
 ---
+
+This document provides concise explanations for foundational circuit analysis topics. Expand sections as needed for further study!
+
+## 5. Real Voltage and Current Sources
+
+### Does the real voltage source represent an ideal voltage source connected in series or in parallel with an ideal resistor?
+- A real voltage source represents an ideal voltage source connected in series with an ideal resistor.
+
+### What are the parameters of the real voltage source?
+- Electromotive force (E) and internal resistance (R).
+
+### Is the (internal) resistance of the ideal voltage source zero or infinite?
+- Zero.
+
+### What is the equation which define a real voltage source?
+- \( V = E - IR \), where \( E \) is the electromotive force and \( R \) is the internal resistance.
+
+### What is the characteristic (U-I characteristic) of the real voltage source?
+- A linear decreasing function: \( V = E - IR \).
+
+### What is the intersection of the characteristic of the real voltage source with the voltage axis?
+- \( V = E \) (when \( I = 0 \)).
+
+### What is the intersection of the characteristic of the real voltage source with the current axis?
+- \( I = rac{E}{R} \) (when \( V = 0 \)).
+
+### Does the real current source represent an ideal current source connected in series or in parallel with an ideal resistor?
+- A real current source represents an ideal current source connected in parallel with an ideal resistor.
+
+### What are the parameters of the real current source?
+- Current \( J \) and internal conductance \( G \).
+
+### Is the (internal) conductance of the ideal current source zero or infinite?
+- Infinite.
+
+### What is the equation which define a real current source?
+- \( I = J - GV \), where \( J \) is the current and \( G \) is the internal conductance.
+
+### What is the characteristic (U-I characteristic) of the real current source?
+- A linear decreasing function: \( I = J - GV \).
+
+### What is the intersection of the characteristic of the real current source with the voltage axis?
+- \( V = rac{J}{G} \) (when \( I = 0 \)).
+
+### What is the intersection of the characteristic of the real current source with the current axis?
+- \( I = J \) (when \( V = 0 \)).
+
+## 6. Equivalence Theorem of Real Voltage and Current Sources
+
+### What are the conditions for which a real voltage source with parameters E and R is equivalent to a real current source with parameters J and G?
+- \( J = rac{E}{R} \) and \( G = rac{1}{R} \).
+
+### What is the equivalent resistance of two resistors connected in series?
+- \( R_{	ext{eq}} = R_1 + R_2 \).
+
+### What is the equivalent resistance of two resistors connected in parallel?
+- \( rac{1}{R_{	ext{eq}}} = rac{1}{R_1} + rac{1}{R_2} \).
+
+### What is the equivalent electromotive force of two ideal voltage sources connected in series?
+- \( E_{	ext{eq}} = E_1 + E_2 \).
+
+### What is the equivalent electromotive force of two ideal voltage sources connected in parallel?
+- Voltage sources cannot be directly connected in parallel unless their electromotive forces are equal.
+
+### What is the equivalent current of two ideal current sources connected in series?
+- Current sources cannot be directly connected in series unless their currents are equal.
+
+### What is the equivalent current of two ideal current sources connected in parallel?
+- \( J_{	ext{eq}} = J_1 + J_2 \).
+
+### What is the equivalent element of an ideal voltage source connected in parallel with a real voltage source?
+- A real voltage source with modified parameters.
+
+### What is the equivalent element of an ideal current source connected in series with a real current source?
+- A real current source with modified parameters.
+
+## 7. Equivalence Star-Triangle Connection of Passive Branches. Current and Voltage Dividers Theorems.
+
+### If three resistors, with equal resistances Rs, are connected in the star, what is the resistance Rt of the equivalent triangle scheme?
+- \( R_t = 3R_s \).
+
+### If three resistors, with equal resistances Rt, are connected in the triangle, what is the resistance Rs of the equivalent star scheme?
+- \( R_s = rac{R_t}{3} \).
+
+### If two resistors, with equal resistances, are connected in parallel, having known the total current I, what are the currents through the resistors (function on I)?
+- \( I_1 = I_2 = rac{I}{2} \).
+
+### If two resistors, with equal resistances, are connected in series, having known the total voltage U, what are the voltages along the resistors (function on U)?
+- \( U_1 = U_2 = rac{U}{2} \).
+
+## 8. Controlled Ideal Sources (VCVS, CCVS, CCCS, VCCS)
+
+### What is the input port of the voltage-controlled voltage source (VCVS)?
+- Voltage port.
+
+### What is the input current of the voltage-controlled voltage source (VCVS)?
+- Zero (ideal condition).
+
+### What is the proportionality (transfer) coefficient between output and input ports of the voltage-controlled voltage source (VCVS)?
+- Voltage gain (\( A_v \)).
+
+### On which does the electromotive force of the voltage-controlled voltage source (VCVS) depend?
+- Input voltage.
+
+### What is the input port of the current-controlled voltage source (CCVS)?
+- Current port.
+
+### What is the input voltage of the current-controlled voltage source (CCVS)?
+- Zero (ideal condition).
+
+### What is the proportionality (transfer) coefficient between output and input ports of the current-controlled voltage source (CCVS)?
+- Transresistance (\( R_m \)).
+
+### On which does the electromotive force of the current-controlled voltage source (CCVS) depend?
+- Input current.
+
+### What is the input port of the current-controlled current source (CCCS)?
+- Current port.
+
+### What is the input voltage of the current-controlled current source (CCCS)?
+- Zero (ideal condition).
+
+### What is the proportionality (transfer) coefficient between output and input ports of the current-controlled current source (CCCS)?
+- Current gain (\( A_i \)).
+
+### On which does the (output) current of the current-controlled current source (CCCS) depend?
+- Input current.
+
+### What is the input port of the voltage-controlled current source (VCCS)?
+- Voltage port.
+
+### What is the input current of the voltage-controlled current source (VCCS)?
+- Zero (ideal condition).
+
+### What is the proportionality (transfer) coefficient between output and input ports of the voltage-controlled current source (VCCS)?
+- Transconductance (\( G_m \)).
+
+### On which does the (output) current of the voltage-controlled current source (VCCS) depend?
+- Input voltage.
